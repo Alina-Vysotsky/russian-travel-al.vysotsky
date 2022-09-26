@@ -1,5 +1,10 @@
 .header__lang-link {
     color: white;
+    transition: color 0.4s;
+}
+
+.header__lang-link:hover {
+    color: #cecece;
 }
 
 .header__lang-link:last-child {
