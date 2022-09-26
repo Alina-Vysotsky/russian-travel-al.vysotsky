@@ -6,48 +6,17 @@
 
 
 /* global */
+@import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 
 
-.page {
-    background-color: #2A2C2F;
-}
 
-.header {
-    margin: 0 48px;
-    padding-top: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-@media screen and (max-width: 320px) {
-    .header {
-        margin: 0 16px;
-        padding-top: 16px;
-    }
-}
 
-.header__logo {
-    height: 52px;
-    width: 176px;
-}
 
-@media screen and (max-width: 320px) {
-    .header__logo {
-        height: 42px;
-        width: 142px;
-    }
-}
 
-.header__lang-links {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.header__lang-link {
-    text-decoration: none;
-    color: white;
-}
