@@ -5,6 +5,8 @@
     font-display: swap;
     src: url(./fonts/inter-regular.woff2) format("woff2"),
     url(./fonts/inter-regular.woff) format("woff");
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -14,6 +16,8 @@
     font-display: swap;
     src: url(./fonts/inter-bold.woff2) format("woff2"),
     url(./fonts/inter-bold.woff) format("woff");
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
@@ -23,5 +27,7 @@
     font-display: swap;
     src: url(./fonts/inter-black.woff2) format("woff2"),
     url(./fonts/inter-black.woff) format("woff");
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
